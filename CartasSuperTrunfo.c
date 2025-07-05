@@ -9,8 +9,37 @@
 int main() {
 
 
-    printf("Cadastrando as cartas\n");
-    printf("Novo Commit\n");
+    char nomeestado1[20], nomeestado2[20]; 
+    char codigoestado1[20], codigoestado2[20];
+    char nomecidade1[20] , nomecidade2[20];
+    float populacao1 , populacao2;
+    float area1 , area2;
+    float pib1,pib2;
+    int pontostur1 , pontostur2;
+
+    printf("Nome do Estado : \n");
+    scanf("%s", nomeestado1);
+
+    printf("Codigo da Cidade : \n");
+    Scanf("%s",nomecidade1);
+    
+    printf("Populaçao cidade : \n");
+    scanf("%f", populacao1);
+    
+    printf("Área total : \n");
+    scanf ("%f", area1);
+    
+    printf("PIB da cidade : \n");
+    scanf("%f", pib1);
+
+    printf(" Quantidade de Pontos Turisticos : \n");
+    scanf("%d", pontostur1);
+
+    
+
+
+
+
 
 
 
