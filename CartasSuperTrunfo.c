@@ -4,8 +4,9 @@
 
 int main() {
 
+    //// Variaveis ////
 
-    char nomeestado1[50], nomeestado2[50]; 
+    char nomeestado1[50], nomeestado2[50];  
     char codigoestado1[50], codigoestado2[50];
     char nomecidade1[50] , nomecidade2[50];
     float populacao1 , populacao2;
@@ -13,8 +14,8 @@ int main() {
     float pib1,pib2;
     int pontostur1 , pontostur2;
 
-    printf("Sigla do Estado : \n");
-    scanf("%s", nomeestado1);
+    printf("Sigla do Estado : \n"); /// printa na tela o texto entre "" ///
+    scanf("%s", nomeestado1);      /// printa na tela a variavel inserida ///
 
     printf("Nome da Cidade : \n");
     scanf("%s", nomecidade1);
