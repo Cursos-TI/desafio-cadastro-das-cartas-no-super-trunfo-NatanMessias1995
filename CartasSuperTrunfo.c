@@ -12,10 +12,13 @@ int main() {
     float populacao1 , populacao2;
     float area1 , area2;
     float pib1,pib2;
-    int pontostur1 , pontostur2;
+    int pontostur1 , pontostur2 , codigocidade1, codigocidade2 ;
 
     printf("Sigla do Estado : \n"); /// printa na tela o texto entre "" ///
     scanf("%s", nomeestado1);      /// printa na tela a variavel inserida ///
+
+    printf("Codigo da Cidade : \n");
+    scanf("%d", &codigocidade1);
 
     printf("Nome da Cidade : \n");
     scanf("%s", nomecidade1);
@@ -35,8 +38,8 @@ int main() {
     
     /// DADOS DA CARTA 01 ///
 
-    printf("Estado : %s\n - Cidade : %s\n - População : %f\n - Área em metros : %f\n - PIB : %f\n - Pontos Turísticos : %d\n ", nomeestado1,
-        nomecidade1, populacao1 , area1 , pib1, pontostur1 );
+    printf("Estado : %s\n - Codigo : %d\n - Cidade : %s\n - População : %.3f\n - Área em metros : %.3f\n - PIB : %.3f\n - Pontos Turísticos : %d\n ", nomeestado1,
+        codigocidade1 , nomecidade1 ,  populacao1 , area1 , pib1, pontostur1 );
 
     
    
