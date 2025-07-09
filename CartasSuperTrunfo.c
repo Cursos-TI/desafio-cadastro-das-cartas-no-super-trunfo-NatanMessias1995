@@ -44,7 +44,7 @@ int main() {
     
     /// DADOS DA CARTA 01 ///
 
-    printf("Estado : %s\n  - Codigo : %d\n - Cidade : %s\n - População : %f\n - Área em metros : %f\n - PIB : %f\n - Pontos Turísticos : %d\n - Densidade Populacional : %f\n - PIB percapita : %f\n  ", nomeestado1,
+    printf("Estado : %s\n  - Codigo : %d\n - Cidade : %s\n - População : %.8f\n - Área em metros : %.2f\n - PIB : %.2f\n - Pontos Turísticos : %d\n - Densidade Populacional : %f\n - PIB percapita : %f\n  ", nomeestado1,
         codigocidade1 , nomecidade1 ,  populacao1 , area1 , pib1, pontostur1 , densidadepop1 = populacao1/area1 , pibpercapita1 = pib1/populacao1 );
 
     
