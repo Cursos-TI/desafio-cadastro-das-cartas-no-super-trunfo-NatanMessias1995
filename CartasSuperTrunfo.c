@@ -9,8 +9,8 @@ int main() {
     char nomeestado1[50], nomeestado2[50];  
     char codigoestado1[50], codigoestado2[50];
     char nomecidade1[50] , nomecidade2[50];
-    float populacao1 , populacao2;
-    float area1 , area2;
+    float populacao1 , populacao2 , densidadepop1 , densidadepop2;
+    float area1 , area2, pibpercapita1 , pibpercapita2;
     float pib1,pib2;
     int pontostur1 , pontostur2 , codigocidade1, codigocidade2 ;
 
@@ -35,11 +35,17 @@ int main() {
     printf("Quantidade de Pontos Turisticos : \n");
     scanf("%d", &pontostur1);
 
+    printf("Densidade populacional : \n");
+    /*scanf("%f", &densidadepop1); */
+
+    printf("PIB per capita : \n");
+    /*scanf("%f", &pibpercapita1); */
+
     
     /// DADOS DA CARTA 01 ///
 
-    printf("Estado : %s\n - Codigo : %d\n - Cidade : %s\n - População : %.3f\n - Área em metros : %.3f\n - PIB : %.3f\n - Pontos Turísticos : %d\n ", nomeestado1,
-        codigocidade1 , nomecidade1 ,  populacao1 , area1 , pib1, pontostur1 );
+    printf("Estado : %s\n  - Codigo : %d\n - Cidade : %s\n - População : %f\n - Área em metros : %f\n - PIB : %f\n - Pontos Turísticos : %d\n - Densidade Populacional : %f\n - PIB percapita : %f\n  ", nomeestado1,
+        codigocidade1 , nomecidade1 ,  populacao1 , area1 , pib1, pontostur1 , densidadepop1 = populacao1/area1 , pibpercapita1 = pib1/populacao1 );
 
     
    
