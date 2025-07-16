@@ -117,7 +117,7 @@ int main() {
       printf("Brasil - %s\n", nomecidade2);
       printf("População carta 2 : %.2f\n", populacao2);
 
-      if (populacao1 == populacao2){
+      if (populacao1 == populacao2){          //// USO DO OPERADOR LOGICO == ////
        printf("As cartas Empataram !");
       }
 
