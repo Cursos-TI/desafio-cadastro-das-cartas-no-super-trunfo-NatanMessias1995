@@ -168,9 +168,9 @@ int main() {
 
        case 4:
       printf("Brasil - %s\n", nomecidade1);  
-      printf("Pontos turisticos carta 1 : %.2f\n", pontostur1);
+      printf("Pontos turisticos carta 1 : %dd\n", pontostur1);
       printf("Brasil - %s\n", nomecidade2);
-      printf("Pontos turisticos carta 2: %.2f\n", pontostur2);
+      printf("Pontos turisticos carta 2: %d\n", pontostur2);
 
       if (pontostur1 == pontostur2){
        printf("As cartas Empataram !");
